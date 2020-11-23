@@ -31,18 +31,29 @@
             background-color: rgb(236, 236, 236);
             padding: 10px;
             border-radius: 10px;
-
+            
+            
             position: absolute;
-            left: 10%;
+            
+            left: 15%;
             top: 50%;
-            transform: translate(-50%, -10%);
+            transform: translate(-50%, -15%);
             text-align: center;
         }
         .button{
+            
             float: left;
             padding: 20px;
+            width: 164px;
         }
-
+        .absco{
+            height: 75px;
+            width: 75px;
+            border: black;
+            border-style: solid;
+            border-width: 2px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
@@ -50,20 +61,42 @@
     <!--PORTRAIT-->
     <div> <img src="https://www.lcps.org/cms/lib/VA01000195/Centricity/Domain/29342/DnD%20logo.jpg"></div>
     <!--SIDE CONTENT-->
-    <div class="sidebar"><p>skibbyt bop boom bop</p></div>
+    <div class="sidebar">
+        <H1>Level: 1</H1>
+        <p>exp/milestone</p>
+        <H1>Health</H1>
+        <p>25/25</p>
+        <H1>Money</H1>
+        <p>Plat, Gold, Silver, Copper</p>
+        
+    
+    </div>
     <!--MAIN CONTENT-->
     <div class="sheet">
         <!--Buttons-->
-        <button>BUTTON</button>
         <div class="button" style="background-color: indianred;">Button 2</div>
         <div class="button" style="background-color: rgb(39, 94, 131);"">Button three</div>
+        <div class="button" style="background-color: green;">Button three</div>
 
-
-        <h1>Character Name</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo accumsan turpis feugiat elementum. Etiam posuere, tortor sed auctor mollis, erat ligula venenatis diam, eget venenatis lorem massa ut neque. Aliquam placerat porttitor ligula sed placerat. Vestibulum vitae molestie enim. Curabitur tortor odio, vehicula quis mi non, faucibus ultricies quam. Integer non fringilla erat, sed gravida dolor. Praesent massa ligula, mattis ac euismod sed, varius et ipsum. Fusce maximus faucibus diam sed ultrices.
+        <h1 style="padding-top: 50px;">Character Name</h1>
+        
+        <!--Ability scores-->
+        <div style="display: inline-block; width: 100px; padding: 10px;">
+            <div class="absco"><h3>Charisma</h3></div>
+            <div class="absco"><h3>Constitution</h3></div>
+            <div class="absco"><h3>Dexterity</h3></div>
+            <div class="absco"><h3>Intellegence</h3></div>
+            <div class="absco"><h3>Strength</h3></div>
+            <div class="absco"><h3>Wisdom</h3></div>
+        </div>
+        
+        <div style="display: inline-block; width: 400px; padding: 10px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Nulla commodo accumsan turpis feugiat elementum. Etiam posuere, tortor sed auctor mollis, erat ligula venenatis diam, eget venenatis lorem massa ut neque. Aliquam placerat porttitor ligula sed placerat. Vestibulum vitae molestie enim. Curabitur tortor odio, vehicula quis mi non, faucibus ultricies quam. Integer non fringilla erat, sed gravida dolor. Praesent massa ligula, mattis ac euismod sed, varius et ipsum. Fusce maximus faucibus diam sed ultrices.
 
             Vivamus sed dolor et augue accumsan hendrerit. Curabitur tempus risus eleifend justo lobortis viverra. Donec maximus, diam non luctus eleifend, eros ipsum congue mi, non sodales diam erat eu turpis. Aliquam vel dignissim justo. Sed faucibus velit mollis, semper magna ac, mattis nisi. Sed dapibus diam id tristique fermentum. Sed vitae tellus orci. Nulla facilisi. Ut eget metus varius, molestie sem sit amet, dapibus ligula. Aenean placerat elementum ligula vel gravida. Vivamus tincidunt, risus iaculis hendrerit porttitor, risus erat semper lorem, vel rutrum mi metus non mi.</p>
     </div>
+</div>
 </div>
 </body>
 </html>
